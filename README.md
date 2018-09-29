@@ -54,10 +54,10 @@ PHP显示层开发目录结构如下
 PHP开发模型层与控制层如下
 ```
 ――Zdweb
-  |――Action
-  |――Dao
-  |――Common
-  |――Lang
+  |--Action
+  |--Dao
+  |--Common
+  |--Lang
 ```
 说明：
 * Action：控制层目录，其下文件夹按照模块名称进行创建，其中建立的每个action首字母小写，后缀以Action结束，例如indexAction.php。
