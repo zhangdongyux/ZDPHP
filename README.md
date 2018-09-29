@@ -2,8 +2,7 @@
 
 ## PHP轻量级开发框架
 ### 开发前设置：   
- 将Zdlib目录放到任意目录，在php.ini 中 “include_path=”将Zdlib和Zdweb目录添加进去。
-
+ 将Zdlib与Zdweb目录放到任意目录，在php.ini 中 “include_path=”将Zdlib和Zdweb目录添加进去。<br>
    Zdlib为类库文件<br>
    Zdweb为开发中使用的model和Controller文件<br>
    将web目录拷贝到webroot下面，此目录为view层文件，用户访问的是此目录，不会访问到Zdlib与Zdweb目录。<br>
